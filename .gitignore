@@ -1,0 +1,10 @@
+# Logs
+logs
+*.log
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Dependency directory
+node_modules
