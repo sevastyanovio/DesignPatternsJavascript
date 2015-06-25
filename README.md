@@ -7,7 +7,7 @@ Sample code for several design patterns in JavaScript
 * Builder :white_medium_square:
 * FactoryMethod :white_medium_square:
 * Prototype :white_medium_square:
-* Singleton :white_check_mark:
+* [Singleton](https://github.com/davex69/DesignPatternsJavascript/blob/master/Creational/Singleton/Singleton.js) :white_check_mark:
 
 ### Structural
 * Adapter :white_medium_square:
