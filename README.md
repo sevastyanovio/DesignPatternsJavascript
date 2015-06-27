@@ -5,7 +5,7 @@ Sample code for several design patterns in JavaScript
 ### Creational
 * AbstractFactory :white_medium_square:
 * Builder :white_medium_square:
-* FactoryMethod :white_medium_square:
+* [FactoryMethod](https://github.com/davex69/DesignPatternsJavascript/blob/master/Creational/FactoryMethod/FactoryMethod.js) :white_check_mark:
 * Prototype :white_medium_square:
 * [Singleton](https://github.com/davex69/DesignPatternsJavascript/blob/master/Creational/Singleton/Singleton.js) :white_check_mark:
 
@@ -36,7 +36,7 @@ Sample code for several design patterns in JavaScript
 
 
 # Contributing
-You are free to fork and extend current repository. 
+You are free to fork and extend current repository.
 
 # License
 MIT © [Roman Sevastyanov](https://github.com/davex69/)
