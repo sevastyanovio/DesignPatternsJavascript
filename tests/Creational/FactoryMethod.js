@@ -5,7 +5,6 @@ define([
 ], function (tdd, assert) {
   with (tdd) {
     suite('FactoryMethod', function () {
-
       test('Test creation', function () {
         var fruitFactory = new FruitFactory();
 

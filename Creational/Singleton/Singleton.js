@@ -1,42 +1,38 @@
 /**
  * JavaScript Singleton implementation
  */
-define('Singleton', [], function () {
-  var Singleton = (function () {
+var Singleton = (function () {
 
-    // Singleton instance
-    var _instance;
+  // Singleton instance
+  var _instance;
 
-    function _create() {
-      // private property
-      var _bornTime = Date.now();
+  function _create() {
+    // private property
+    var _bornTime = Date.now();
 
-      // private method
-      function _getBornTime() {
-        return _bornTime;
-      }
-
-      return {
-        // public property
-        name: 'SuperSingleton',
-
-        // public method
-        getInfo: function() {
-          console.log('I born ' + _getBornTime() + ' seconds ago');
-        }
-      };
+    // private method
+    function _getBornTime() {
+      return _bornTime;
     }
 
     return {
-      getInstance: function () {
-        if (!_instance) {
-          _instance = _create();
-        }
+      // public property
+      name: 'SuperSingleton',
 
-        return _instance;
+      // public method
+      getInfo: function() {
+        console.log('I born ' + _getBornTime() + ' seconds ago');
       }
-    }
-  })();
+    };
+  }
 
-  return Singleton;
-});
+  return {
+    getInstance: function () {
+      if (!_instance) {
+        _instance = _create();
+      }
+
+      return _instance;
+    }
+  }
+})();
