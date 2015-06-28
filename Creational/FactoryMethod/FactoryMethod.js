@@ -3,9 +3,23 @@
  */
 function FruitFactory () {
   this.create = function (type) {
-    var fruitClass = type.charAt(0).toUpperCase() + type.slice(1);
+    var fruit;
 
-    return eval("new " + fruitClass + "()");
+    switch (type) {
+      case 'apple':
+        fruit = new Apple();
+        break;
+      case 'banana':
+        fruit = new Banana();
+        break;
+      case 'pineapple':
+        fruit = new Pineapple();
+        break;
+      default:
+        throw new Error(type + ' is not a valid fruit');
+    }
+
+    return fruit;
   }
 }
 

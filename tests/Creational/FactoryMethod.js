@@ -13,6 +13,16 @@ define([
 
         assert.equal(factoryApple.type, realApple.type);
       });
+
+      test('Test unknown type', function () {
+        var fruitFactory = new FruitFactory();
+
+        try {
+          fruitFactory.create('tomato');
+        } catch (e) {
+          assert.equal(e.message, 'tomato is not a valid fruit');
+        }
+      });
     });
   }
 });
