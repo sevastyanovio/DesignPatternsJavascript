@@ -2,14 +2,14 @@
 Sample code for several design patterns in JavaScript
 
 #TODO
-### Creational
+### [Creational](https://github.com/davex69/DesignPatternsJavascript/tree/master/Creational)
 * AbstractFactory :white_medium_square:
 * Builder :white_medium_square:
 * [FactoryMethod](https://github.com/davex69/DesignPatternsJavascript/blob/master/Creational/FactoryMethod/FactoryMethod.js) :white_check_mark:
 * Prototype :white_medium_square:
 * [Singleton](https://github.com/davex69/DesignPatternsJavascript/blob/master/Creational/Singleton/Singleton.js) :white_check_mark:
 
-### Structural
+### [Structural](https://github.com/davex69/DesignPatternsJavascript/tree/master/Structural)
 * Adapter :white_medium_square:
 * Bridge :white_medium_square:
 * Composite :white_medium_square:
@@ -20,7 +20,7 @@ Sample code for several design patterns in JavaScript
 * Proxy :white_medium_square:
 * Registry :white_medium_square:
 
-### Behavioral
+### [Behavioral](https://github.com/davex69/DesignPatternsJavascript/tree/master/Behavioral)
 * ChainOfResponsibilities :white_medium_square:
 * Command :white_medium_square:
 * Iterator :white_medium_square:
